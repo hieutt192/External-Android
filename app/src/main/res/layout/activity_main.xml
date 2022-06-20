@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/staff_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add staff" />
+
+    <Button
+        android:id="@+id/position_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add postion" />
+    <Button
+        android:id="@+id/staff_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add staff to position" />
+    <Button
+        android:id="@+id/statistic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="statistic" />
+    <Button
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list name" />
+
+
+</LinearLayout>

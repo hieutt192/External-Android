@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addnv"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tên"
+        android:id="@+id/txtName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="quê"
+        android:id="@+id/txtQue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="năm sinh"
+        android:id="@+id/txtNamSinh"/>
+    <Spinner
+        android:id="@+id/spTD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></Spinner>
+    <Button
+        android:id="@+id/btnaddNV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"></Button>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
